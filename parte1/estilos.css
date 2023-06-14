@@ -66,3 +66,8 @@ h1{
 .pie{
   background: #22A39F;
 }
+@media all and (max-width: 800px){
+  .section{
+    flex-direction: column;
+  }
+}
