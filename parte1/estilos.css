@@ -70,4 +70,14 @@ h1{
   .section{
     flex-direction: column;
   }
+  .menu{
+    flex-direction: column;
+    height: auto;
+    align-items: stretch;
+  }
+}
+@media all and (max-width:600px){
+  .articulos{
+    flex-direction: column;
+  }
 }
