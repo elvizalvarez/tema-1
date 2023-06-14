@@ -1,0 +1,68 @@
+*{
+  margin: 10px;
+  padding: 10px;  
+  box-sizing: border-box;
+}
+.padre{
+display: flex;
+flex-flow: column nowrap;
+}
+.header{
+    background: #000;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.menu{
+  background:#11009E ;
+  display: flex;
+  flex-flow: nowrap;
+}
+.logo{
+  background: #4942E4;
+  flex: 1 1 auto;
+}
+.nav{
+  background: #4942E4;
+  flex: 5 1 auto;
+}
+.social{
+  background: #4942E4;
+  flex: 1 1 auto;
+}
+.texto-principal{
+  background: #8696FE;
+}
+h1{
+  background: #C4B0FF;
+}
+.section{
+  background: #000;
+  display: flex;
+}
+.articulos{
+  background: #FFF80A;
+  flex: 2 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.article{
+  background: #D61C4E;
+  flex: 1 1 40%;
+}
+.navegacion{
+  background: #293462;
+  flex: 1 1 100%;
+}
+.aside{
+  background: #FDE2F3;
+  flex: 1 1 auto;
+}
+.publicidad{
+  background: #2A2F4F;
+}
+.footer{
+  background: #000;
+}
+.pie{
+  background: #22A39F;
+}
