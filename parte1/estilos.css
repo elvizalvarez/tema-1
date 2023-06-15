@@ -3,6 +3,12 @@
   padding: 10px;  
   box-sizing: border-box;
 }
+.body{
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
 .padre{
 display: flex;
 flex-flow: column nowrap;
@@ -67,11 +73,14 @@ h1{
   background: #22A39F;
 }
 @media all and (max-width: 800px){
-  .section{
+  .header{
     flex-direction: column;
   }
-  .menu{
+  .section{
     flex-direction: column;
+    background: #22A39F;
+  }
+  .menu{
     height: auto;
     align-items: stretch;
   }
